@@ -49,16 +49,16 @@ body.main {
 }
 
 .menu__references ul {
-    font-weight: 300 !important;
-    letter-spacing: 1px !important;
-    list-style: none !important;
-    padding-left: 55px !important;
-    word-spacing: 10px !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+    list-style: none;
+    padding-left: 55px;
+    word-spacing: 10px;
 }
 
 .menu__references a {
-    text-decoration: none !important;
-    color: black !important;
+    text-decoration: none;
+    color: black;
 }
 
 table {
