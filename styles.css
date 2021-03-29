@@ -1,15 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
+html.main {
     font-size: 14px;
 }
 
-body {
-    background: url("./images/11.jpg");
+body.main {
+    background: url("./images/background.jpg");
     background-size: cover;
     font-family: "Roboto Thin", sans-serif;
 }
@@ -43,7 +37,7 @@ body {
 }
 
 
-.container .image {
+.container__image {
     margin-bottom: 3rem;
 }
 
@@ -52,4 +46,15 @@ body {
     font-weight: 200;
     letter-spacing: 1px;
     margin-bottom: 2rem;
+}
+
+.menu__references ul {
+    font-weight: 300;
+    letter-spacing: 1px;
+    list-style: none;
+    padding-left: 55px;
+}
+.menu__references a {
+    text-decoration: none;
+    color: black;
 }
