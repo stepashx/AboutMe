@@ -96,6 +96,7 @@ body.photo {
 }
 
 .photo__container {
+    font-family: "Roboto Thin", sans-serif;
     text-align: center;
     font-size: 14px;
 }
