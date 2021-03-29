@@ -61,6 +61,10 @@ body.main {
     color: black;
 }
 
+body.drinks {
+    font-family: "Roboto Thin", sans-serif;
+}
+
 table {
     margin-left: 5rem;
     font-size: 18px;
