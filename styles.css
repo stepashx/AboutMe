@@ -61,10 +61,6 @@ body.main {
     color: black;
 }
 
-body.drinks {
-    font-family: "Roboto Thin", sans-serif;
-}
-
 table {
     margin-left: 5rem;
     font-size: 18px;
@@ -89,4 +85,13 @@ td {
     font-weight: 200;
     letter-spacing: 1px;
     margin-bottom: 2rem;
+}
+
+body.photo {
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.photo__container {
+    text-align: center;
+    font-size: 14px;
 }
