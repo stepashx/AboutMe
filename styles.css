@@ -62,10 +62,13 @@ body.main {
 }
 
 body.drinks {
+    background: url("./images/background.jpg");
+    background-size: cover;
     font-family: "Roboto Thin", sans-serif;
 }
 
 table {
+    background: white;
     margin-left: 5rem;
     font-size: 18px;
     border: 1px solid black;
@@ -92,6 +95,8 @@ td {
 }
 
 body.photo {
+    background: url("./images/background.jpg");
+    background-size: cover;
     font-family: "Roboto Thin", sans-serif;
 }
 
