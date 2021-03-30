@@ -68,12 +68,13 @@ body.drinks {
 }
 
 table {
-    background: white;
-    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    margin-bottom: 18rem;
     font-size: 18px;
     border: 1px solid black;
     width: 100%;
-    width: 700px;
+    width: 800px;
     border-collapse: collapse;
     text-align: center;
 }
@@ -113,9 +114,25 @@ body.photo {
     margin-bottom: 3rem;
 }
 
-.photo p {
+.photo__container p {
     font-size: 1rem;
     font-weight: 200;
+    letter-spacing: 1rem;
+}
+.contacts {
+    left: 0; bottom: 0;
+}
+
+.contacts ul {
+    text-align: -webkit-right;
+    font-weight: 300;
     letter-spacing: 1px;
-    margin-bottom: 2rem;
+    list-style: none;
+    padding-left: 55px;
+    word-spacing: 10px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
 }
